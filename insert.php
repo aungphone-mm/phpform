@@ -12,7 +12,7 @@
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 //$link = mysqli_connect("localhost", "aungphone", "admin", "shopygndb");
-
+//$link = mysqli_connect("localhost", "root", "", "shopygndb");
 $link = mysqli_connect("localhost", "root", "", "shopygndb");
  
 session_start();
