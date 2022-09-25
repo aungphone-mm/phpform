@@ -14,10 +14,10 @@ server with default setting (user 'root' with no password) */
 //$link = mysqli_connect("localhost", "aungphone", "admin", "shopygndb");
 //$link = mysqli_connect("localhost", "root", "", "shopygndb");
 
-$host= "ec2-52-200-5-135.compute-1.amazonaws.com";
-$dbname = "dbk5cubscsr3i3";
-$user = "oixsjrlzkdzkqq";
-$password = "91556de58737f1eeda4089bcca863261f3dd2687187e3a0b7044c53a43d4c2cf";
+$host= "ec2-44-207-253-50.compute-1.amazonaws.com";
+$dbname = "d98rp4s6t7t1iv";
+$user = "tkwrytmxcmajbf";
+$password = "535142c3f4987bf03d93decb8a109276e02b35c962629a7a6ba0c967bc4e63b7";
 $port = "5432";
 
 try{
