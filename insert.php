@@ -14,27 +14,6 @@ server with default setting (user 'root' with no password) */
 //$link = mysqli_connect("localhost", "aungphone", "admin", "shopygndb");
 //$link = mysqli_connect("localhost", "root", "", "shopygndb");
 
-$host= "ec2-44-207-253-50.compute-1.amazonaws.com";
-$dbname = "d98rp4s6t7t1iv";
-$user = "tkwrytmxcmajbf";
-$password = "535142c3f4987bf03d93decb8a109276e02b35c962629a7a6ba0c967bc4e63b7";
-$port = "5432";
-
-try{
-  //Set DSN data source name
-    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
-
-
-  //create a pdo instance
-  $pdo = new PDO($dsn, $user, $password);
-  $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
-  $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $e) {
-echo 'Connection failed: ' . $e->getMessage();
-}
-//db
 
 session_start();
 // Check connection
