@@ -25,6 +25,7 @@ if($result = mysqli_query($link, $sql)){
                 echo "<th>email</th>";
 				echo "<th>Amount</th>";
 				//echo "<th>id</th>";
+                //testing
             echo "</tr>";
         while($row = mysqli_fetch_array($result)){
             echo "<tr>";
