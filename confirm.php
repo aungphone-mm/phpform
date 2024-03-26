@@ -26,6 +26,7 @@ if($result = mysqli_query($link, $sql)){
 				echo "<th>Amount</th>";
 				//echo "<th>id</th>";
                 //testing
+	    	//other change
             echo "</tr>";
         while($row = mysqli_fetch_array($result)){
             echo "<tr>";
